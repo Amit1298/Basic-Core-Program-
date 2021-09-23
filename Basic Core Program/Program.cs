@@ -62,6 +62,10 @@ namespace Basic_Core_Program
             Alphabet Vowal = new Alphabet();
             Vowal.checkVowal();
             Console.ReadLine();
+
+            largestNumber large = new largestNumber();
+            large.number();
+            Console.ReadLine();
         }
     }
 }
