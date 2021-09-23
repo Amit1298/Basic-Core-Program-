@@ -42,6 +42,10 @@ namespace Basic_Core_Program
             harmonicNumber number = new harmonicNumber();
             number.nthHarmonic(2);
             Console.ReadLine();
+
+            primeFactors primeNum = new primeFactors();
+            primeNum.Prime();
+            Console.ReadLine();
         }
     }
 }
