@@ -46,6 +46,10 @@ namespace Basic_Core_Program
             primeFactors primeNum = new primeFactors();
             primeNum.Prime();
             Console.ReadLine();
+
+            Quotient_and_Remainder Quotant = new Quotient_and_Remainder();
+            Quotant.quotRem();
+            Console.ReadLine();
         }
     }
 }
