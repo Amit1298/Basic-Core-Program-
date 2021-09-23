@@ -38,6 +38,10 @@ namespace Basic_Core_Program
             PowerOfTwo power = new PowerOfTwo();
             power.powerTwo();
             Console.ReadLine();
+
+            harmonicNumber number = new harmonicNumber();
+            number.nthHarmonic(2);
+            Console.ReadLine();
         }
     }
 }
