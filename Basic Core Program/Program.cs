@@ -34,6 +34,10 @@ namespace Basic_Core_Program
             Console.ReadLine();
             lpYear.printYear();
             Console.ReadLine();
+
+            PowerOfTwo power = new PowerOfTwo();
+            power.powerTwo();
+            Console.ReadLine();
         }
     }
 }
