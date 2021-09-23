@@ -15,6 +15,14 @@ namespace Basic_Core_Program
                 //Console.WriteLine("2"+"*"+N+"="+N*2);
                 double pow_t = Math.Pow(2, n);
                 Console.WriteLine(pow_t);
+                if ((pow_t % 4 == 0))
+                {
+                    Console.WriteLine("This Year is a Leap Year");
+                }
+                else
+                {
+                    Console.WriteLine("This Year is Not a Leap Year");
+                }
             }
         }
     }
