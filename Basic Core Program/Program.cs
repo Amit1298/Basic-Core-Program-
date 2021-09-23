@@ -30,6 +30,9 @@ namespace Basic_Core_Program
             }
             Console.WriteLine("Heads = " + head + " Tails = " + tails + " Counts = " + count);
             Console.WriteLine("Heads = " + (head * 100f/ count)+"%" + " Tails = " + tails * 100f/ count +"%");
+            leapYear lpYear = new leapYear();
+            Console.ReadLine();
+            lpYear.printYear();
             Console.ReadLine();
         }
     }
