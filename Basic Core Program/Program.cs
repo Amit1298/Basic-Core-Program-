@@ -54,6 +54,10 @@ namespace Basic_Core_Program
             SwapNumber TwoNumber = new SwapNumber();
             TwoNumber.TwoSwap();
             Console.ReadLine();
+
+            checkOddEven checkNumber = new checkOddEven();
+            checkNumber.OddEven();
+            Console.ReadLine();
         }
     }
 }
