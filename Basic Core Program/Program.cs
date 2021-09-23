@@ -58,6 +58,10 @@ namespace Basic_Core_Program
             checkOddEven checkNumber = new checkOddEven();
             checkNumber.OddEven();
             Console.ReadLine();
+
+            Alphabet Vowal = new Alphabet();
+            Vowal.checkVowal();
+            Console.ReadLine();
         }
     }
 }
