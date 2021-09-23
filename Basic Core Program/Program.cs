@@ -50,6 +50,10 @@ namespace Basic_Core_Program
             Quotient_and_Remainder Quotant = new Quotient_and_Remainder();
             Quotant.quotRem();
             Console.ReadLine();
+
+            SwapNumber TwoNumber = new SwapNumber();
+            TwoNumber.TwoSwap();
+            Console.ReadLine();
         }
     }
 }
